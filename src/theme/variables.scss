@@ -86,3 +86,20 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+// 自定义css
+// 底部tabs图标颜色更改
+.mytabs .tab-button[aria-selected=true] .tab-button-icon {
+  color: #f53d3d !important;   /* !important最高优先权 */
+};
+// 底部tabs文字更改
+.mytabs .tab-button[aria-selected=true] {
+  color: #f53d3d !important;
+};
+
+.clearfix{
+  content:"";
+  display: block;
+  height: 0px;
+  clear: both;
+}
